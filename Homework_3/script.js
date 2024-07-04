@@ -99,7 +99,7 @@ class Order {
   }
 }
 
-const order = new Order(223355);
+const order = new Order(22335);
 
 // Пустой заказ
 console.log(order.getTotalPrice());
