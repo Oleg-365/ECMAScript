@@ -101,8 +101,7 @@ class Order {
 
 const order = new Order(22335);
 
-// Пустой заказ
-console.log(order.getTotalPrice());
+console.log(order.getTotalPrice()); // Пустой заказ
 
 const product1 = new Product("Phone", 500, 2);
 order.addProduct(product1);
@@ -112,5 +111,4 @@ order.addProduct(product2);
 
 console.log(order.getTotalPrice()); // Вывод: 1100
 
-// Показывает сколько позиций в заказе.
-console.log(order);
+console.log(order); // Показывает сколько позиций в заказе.
